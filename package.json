@@ -1,0 +1,21 @@
+{
+  "name": "dsa-study-guide",
+  "version": "1.0.0",
+  "description": "A structured, six-month Data Structures & Algorithms study plan focused on building strong problem-solving fundamentals and preparing for software engineering technical interviews.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinxduong/dsa-study-guide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/austinxduong/dsa-study-guide/issues"
+  },
+  "homepage": "https://github.com/austinxduong/dsa-study-guide#readme"
+}
