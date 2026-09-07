@@ -1,11 +1,12 @@
 # Data Structures & Algorithms Study Guide
 
-A structured, six-month Data Structures & Algorithms study plan focused on building strong problem-solving fundamentals and preparing for software engineering technical interviews.
+A structured six-month study plan for building strong Data Structures & Algorithms (DSA) and System Design skills for software engineering interviews.
 
 **Study Period:** September 7, 2026 → March 7, 2027
 **Primary Language:** JavaScript
 **Target:** ~100–120 problems
 **Primary Resource:** NeetCode 150
+**Goal:** Become confident solving coding interview problems and explaining practical software architecture.
 
 ---
 
@@ -22,6 +23,27 @@ A structured, six-month Data Structures & Algorithms study plan focused on build
 The goal is **not** to solve every possible DSA problem.
 
 The goal is to understand the underlying patterns well enough to solve new problems independently.
+
+---
+
+# 📚 Study Tracks
+
+This study plan has three main tracks:
+
+1. **Data Structures & Algorithms** — Primary interview preparation
+2. **System Design** — Practical architecture and scalability fundamentals
+3. **Software Projects** — Demonstrate real-world development ability
+
+### Weekly Time Target
+
+| Track | Weekly Time |
+|---|---:|
+| DSA | 5–7.5 hours |
+| System Design | ~1–2 hours |
+| Projects | 8–12+ hours |
+| Job Preparation | Increase toward January |
+
+DSA is the primary interview skill, while System Design and projects build practical engineering ability.
 
 ---
 
@@ -42,6 +64,397 @@ The goal is to understand the underlying patterns well enough to solve new probl
 * [13 — Greedy](13-greedy/)
 * [14 — Dynamic Programming](14-dynamic-programming/)
 * [15 — Interview Practice](15-interview-practice/)
+
+---
+
+---
+
+# 🏗️ System Design Study Track
+
+System Design is a secondary track during the first few months and becomes more interview-focused later.
+
+---
+
+# September — System Design Foundations
+
+## Week 1 — What Is System Design?
+
+- [ ] Understand what system design means
+- [ ] Understand client/server architecture
+- [ ] Understand frontend vs backend
+- [ ] Understand request/response
+- [ ] Understand HTTP
+- [ ] Understand HTTPS
+- [ ] Understand domains
+- [ ] Understand DNS
+- [ ] Understand IP addresses
+
+---
+
+## Week 2 — APIs & Web Communication
+
+- [ ] Understand APIs
+- [ ] Understand REST
+- [ ] Understand HTTP methods
+- [ ] Understand GET
+- [ ] Understand POST
+- [ ] Understand PUT/PATCH
+- [ ] Understand DELETE
+- [ ] Understand HTTP status codes
+- [ ] Understand headers
+- [ ] Understand request bodies
+- [ ] Understand JSON
+- [ ] Understand authentication basics
+
+---
+
+## Week 3 — Application Architecture
+
+- [ ] Understand frontend → API → backend → database
+- [ ] Understand separation of concerns
+- [ ] Understand services
+- [ ] Understand stateless applications
+- [ ] Understand stateful applications
+- [ ] Draw a basic architecture diagram
+- [ ] Explain how a request travels through the system
+
+---
+
+## Week 4 — Database Fundamentals
+
+- [ ] Understand relational databases
+- [ ] Understand SQL
+- [ ] Understand NoSQL
+- [ ] Understand tables
+- [ ] Understand rows
+- [ ] Understand columns
+- [ ] Understand primary keys
+- [ ] Understand foreign keys
+- [ ] Understand relationships
+- [ ] Design a basic database schema
+
+---
+
+# October — APIs, Databases, Caching & Scaling
+
+## Week 5 — API Design
+
+- [ ] Design REST resources
+- [ ] Design endpoints
+- [ ] Understand CRUD
+- [ ] Design pagination
+- [ ] Design filtering
+- [ ] Design sorting
+- [ ] Validate input
+- [ ] Design error responses
+- [ ] Understand API versioning
+
+---
+
+## Week 6 — Database Design
+
+- [ ] Understand normalization
+- [ ] Understand denormalization
+- [ ] Design one-to-one relationships
+- [ ] Design one-to-many relationships
+- [ ] Design many-to-many relationships
+- [ ] Understand database indexes
+- [ ] Understand query performance
+- [ ] Identify common database bottlenecks
+
+---
+
+## Week 7 — Caching
+
+- [ ] Understand why caching is useful
+- [ ] Understand cache-aside
+- [ ] Understand cache invalidation
+- [ ] Understand TTL
+- [ ] Identify what should be cached
+- [ ] Understand Redis basics
+- [ ] Understand cache/database interactions
+
+---
+
+## Week 8 — Scaling Basics
+
+- [ ] Understand vertical scaling
+- [ ] Understand horizontal scaling
+- [ ] Understand load balancing
+- [ ] Understand stateless servers
+- [ ] Understand database bottlenecks
+- [ ] Understand read replicas
+- [ ] Practice basic capacity thinking
+- [ ] Explain how an application could scale from 1 server to multiple servers
+
+---
+
+# November — Reliability & Production Systems
+
+## Week 9 — Queues & Background Jobs
+
+- [ ] Understand asynchronous processing
+- [ ] Understand message queues
+- [ ] Understand producers
+- [ ] Understand consumers
+- [ ] Understand background workers
+- [ ] Understand retries
+- [ ] Understand dead-letter queues
+- [ ] Identify tasks that should run asynchronously
+
+---
+
+## Week 10 — Reliability
+
+- [ ] Understand Single Points of Failure
+- [ ] Understand redundancy
+- [ ] Understand failover
+- [ ] Understand timeouts
+- [ ] Understand retries
+- [ ] Understand idempotency
+- [ ] Understand graceful degradation
+- [ ] Identify failure scenarios
+
+---
+
+## Week 11 — Rate Limiting & Traffic
+
+- [ ] Understand rate limiting
+- [ ] Understand requests per second
+- [ ] Understand traffic spikes
+- [ ] Understand abuse protection
+- [ ] Understand backpressure
+- [ ] Learn basic rate-limiting strategies
+- [ ] Explain how to protect an API from excessive traffic
+
+---
+
+## Week 12 — Observability
+
+- [ ] Understand application logs
+- [ ] Understand metrics
+- [ ] Understand distributed tracing
+- [ ] Understand health checks
+- [ ] Understand error monitoring
+- [ ] Understand production debugging
+- [ ] Identify useful metrics for an application
+
+---
+
+# December — System Design Practice
+
+## Week 13 — System Design Framework
+
+Practice the following framework:
+
+1. [ ] Clarify requirements
+2. [ ] Identify functional requirements
+3. [ ] Identify non-functional requirements
+4. [ ] Estimate scale
+5. [ ] Identify core entities
+6. [ ] Design APIs
+7. [ ] Design the database
+8. [ ] Draw high-level architecture
+9. [ ] Identify bottlenecks
+10. [ ] Discuss scaling
+11. [ ] Discuss reliability
+12. [ ] Discuss tradeoffs
+
+---
+
+## Week 14 — URL Shortener
+
+Design a URL-shortening service.
+
+- [ ] Define requirements
+- [ ] Estimate scale
+- [ ] Design API
+- [ ] Design database
+- [ ] Design URL generation
+- [ ] Discuss caching
+- [ ] Discuss scaling
+- [ ] Discuss reliability
+- [ ] Explain tradeoffs
+
+---
+
+## Week 15 — Notification System
+
+Design a notification system.
+
+- [ ] Define requirements
+- [ ] Design API
+- [ ] Design database
+- [ ] Understand notification queues
+- [ ] Understand background workers
+- [ ] Discuss retries
+- [ ] Discuss delivery failures
+- [ ] Discuss scaling
+- [ ] Explain tradeoffs
+
+---
+
+## Week 16 — File Upload Service
+
+Design a file-upload system.
+
+- [ ] Define requirements
+- [ ] Design API
+- [ ] Understand object storage
+- [ ] Understand metadata storage
+- [ ] Discuss large files
+- [ ] Discuss asynchronous processing
+- [ ] Discuss security
+- [ ] Discuss scaling
+- [ ] Explain tradeoffs
+
+---
+
+# January — Apply System Design to Projects
+
+## Week 17 — CRM Architecture
+
+Use the CRM project as a real system-design exercise.
+
+- [ ] Define CRM requirements
+- [ ] Identify users
+- [ ] Identify core entities
+- [ ] Design architecture
+- [ ] Design APIs
+- [ ] Design database schema
+- [ ] Design authentication
+- [ ] Identify bottlenecks
+- [ ] Discuss scaling
+
+---
+
+## Week 18 — CRM Reliability & Performance
+
+- [ ] Add database indexes where appropriate
+- [ ] Identify caching opportunities
+- [ ] Design pagination
+- [ ] Consider rate limiting
+- [ ] Identify background jobs
+- [ ] Design error handling
+- [ ] Add logging
+- [ ] Consider monitoring
+- [ ] Document architecture decisions
+
+---
+
+## Week 19 — Quantum Invoice Architecture
+
+Use Quantum Invoice as a second system-design exercise.
+
+- [ ] Define requirements
+- [ ] Identify core entities
+- [ ] Design architecture
+- [ ] Design APIs
+- [ ] Design database
+- [ ] Design authentication
+- [ ] Consider file/storage requirements
+- [ ] Identify bottlenecks
+- [ ] Discuss scaling
+
+---
+
+## Week 20 — Project Design Review
+
+- [ ] Explain CRM architecture without notes
+- [ ] Explain Quantum Invoice architecture without notes
+- [ ] Explain major architectural decisions
+- [ ] Explain database choices
+- [ ] Explain API choices
+- [ ] Identify potential bottlenecks
+- [ ] Identify what would break at 10x traffic
+- [ ] Identify what would break at 100x traffic
+- [ ] Document improvements
+
+---
+
+# February — System Design Interview Mode
+
+## Week 21 — URL Shortener Mock
+
+- [ ] Complete a timed design
+- [ ] Clarify requirements
+- [ ] Estimate scale
+- [ ] Design architecture
+- [ ] Discuss database
+- [ ] Discuss caching
+- [ ] Discuss scaling
+- [ ] Explain tradeoffs
+
+---
+
+## Week 22 — Chat / Messaging System
+
+- [ ] Understand real-time communication
+- [ ] Understand WebSockets conceptually
+- [ ] Design message storage
+- [ ] Design APIs
+- [ ] Discuss delivery
+- [ ] Discuss scaling
+- [ ] Discuss reliability
+- [ ] Explain tradeoffs
+
+---
+
+## Week 23 — Social Feed
+
+- [ ] Design feed generation
+- [ ] Discuss caching
+- [ ] Discuss scaling
+- [ ] Understand basic feed ranking concepts
+- [ ] Discuss database design
+- [ ] Identify bottlenecks
+- [ ] Explain tradeoffs
+
+---
+
+## Week 24 — Full Mock System Design
+
+- [ ] Complete a timed mock
+- [ ] Practice requirement clarification
+- [ ] Practice scale estimation
+- [ ] Practice architecture diagrams
+- [ ] Practice database design
+- [ ] Practice bottleneck analysis
+- [ ] Practice tradeoff discussions
+- [ ] Review performance afterward
+
+---
+
+# March — Final System Design Preparation
+
+## Week 25 — Blind Design
+
+- [ ] Pick an unfamiliar system
+- [ ] Clarify requirements
+- [ ] Estimate scale
+- [ ] Design architecture
+- [ ] Design APIs
+- [ ] Design database
+- [ ] Identify bottlenecks
+- [ ] Discuss scaling
+- [ ] Discuss reliability
+- [ ] Explain tradeoffs
+
+---
+
+## Week 26 — Final Review
+
+- [ ] Review API design
+- [ ] Review database design
+- [ ] Review caching
+- [ ] Review queues
+- [ ] Review load balancing
+- [ ] Review scaling
+- [ ] Review rate limiting
+- [ ] Review reliability
+- [ ] Review observability
+- [ ] Complete 2–3 mock designs
+- [ ] Practice explaining architecture without notes
 
 ---
 
@@ -916,6 +1329,20 @@ The goal is to eventually solve the problem without needing your previous soluti
 ---
 
 # 📊 Progress Tracker
+
+---
+
+## System Design
+
+- [ ] September — Foundations
+- [ ] October — APIs, databases, caching, scaling
+- [ ] November — Reliability, queues, rate limiting, observability
+- [ ] December — System design practice
+- [ ] January — CRM + Quantum Invoice architecture
+- [ ] February — Mock designs
+- [ ] March — Final review
+
+---
 
 ## September
 

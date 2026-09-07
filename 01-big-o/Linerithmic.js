@@ -10,4 +10,8 @@ is generally much better than:
 O(n²)
 
 for large inputs.
+
+That's:
+Were cutting the size of the array in half log n levels, and sorting the all n elements per level.
 */
+

@@ -16,3 +16,15 @@ That's:
 
 O(n)
 */
+
+function findMax(numbers) {
+    let max = numbers[0]; // Space complexity is O(1) because we only maintain one additional variable. As n grows, we're still only keeping track of one max value.
+
+    for (const number of numbers) { // Time complexity is O(n) because the algorithm may need to examine every element in the input array, so the amount of work grows proportionally with n. and n represents the size of the numbers array.
+        if (number > max) {
+            max = number;
+        }
+    }
+
+    return max;
+}
