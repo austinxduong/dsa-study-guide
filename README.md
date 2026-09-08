@@ -458,7 +458,7 @@ Use Quantum Invoice as a second system-design exercise.
 
 ---
 
-# 🗓️ Six-Month Roadmap
+# 🗓️ Six-Month DSA Roadmap
 
 ## September — Foundations
 
@@ -466,26 +466,28 @@ Use Quantum Invoice as a second system-design exercise.
 
 Focus: Build the fundamental tools that everything else will depend on.
 
+---
+
 ### Week 1 — September 7–13
 
 ### Big O + Arrays
 
 **Learn**
 
-* Big O notation
-* Time complexity
-* Space complexity
-* Arrays
-* Array traversal
-* Searching
-* Basic manipulation
+* [x] Big O notation
+* [x] Time complexity
+* [x] Space complexity
+* [ ] Arrays
+* [ ] Array traversal
+* [ ] Searching
+* [ ] Basic manipulation
 
 **Example Problems**
 
-* Contains Duplicate
-* Two Sum
-* Best Time to Buy and Sell Stock
-* Valid Anagram
+* [x] Contains Duplicate
+* [ ] Two Sum
+* [ ] Best Time to Buy and Sell Stock
+* [ ] Valid Anagram
 
 **Target:** 3–4 problems
 
@@ -499,19 +501,19 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 **Learn**
 
-* Hash maps
-* Hash sets
-* Key/value relationships
-* Frequency counting
-* Lookup optimization
-* When hashing reduces O(n²) → O(n)
+* [ ] Hash maps
+* [ ] Hash sets
+* [ ] Key/value relationships
+* [ ] Frequency counting
+* [ ] Lookup optimization
+* [ ] When hashing reduces O(n²) → O(n)
 
 **Example Problems**
 
-* Contains Duplicate
-* Valid Anagram
-* Two Sum
-* Group Anagrams
+* [ ] Contains Duplicate
+* [ ] Valid Anagram
+* [ ] Two Sum
+* [ ] Group Anagrams
 
 **Target:** 3–4 problems
 
@@ -525,19 +527,19 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 **Learn**
 
-* Left/right pointers
-* Fast/slow pointers
-* Fixed-size windows
-* Dynamic windows
-* When to expand/shrink a window
+* [ ] Left/right pointers
+* [ ] Fast/slow pointers
+* [ ] Fixed-size windows
+* [ ] Dynamic windows
+* [ ] When to expand/shrink a window
 
 **Example Problems**
 
-* Valid Palindrome
-* Two Sum II
-* 3Sum
-* Best Time to Buy and Sell Stock
-* Longest Substring Without Repeating Characters
+* [ ] Valid Palindrome
+* [ ] Two Sum II
+* [ ] 3Sum
+* [ ] Best Time to Buy and Sell Stock
+* [ ] Longest Substring Without Repeating Characters
 
 **Target:** 4 problems
 
@@ -551,24 +553,26 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 **Learn**
 
-* Singly linked lists
-* Node traversal
-* Reversing linked lists
-* Fast/slow pointers
-* Stack operations
-* Queue operations
+* [ ] Singly linked lists
+* [ ] Node traversal
+* [ ] Reversing linked lists
+* [ ] Fast/slow pointers
+* [ ] Stack operations
+* [ ] Queue operations
 
 **Example Problems**
 
-* Reverse Linked List
-* Merge Two Sorted Lists
-* Linked List Cycle
-* Valid Parentheses
-* Min Stack
+* [ ] Reverse Linked List
+* [ ] Merge Two Sorted Lists
+* [ ] Linked List Cycle
+* [ ] Valid Parentheses
+* [ ] Min Stack
 
 **Target:** 4–5 problems
 
 **Folders:** `06-linked-lists/` + `07-stacks-queues/`
+
+---
 
 ### September Checkpoint
 
@@ -576,15 +580,15 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 You should be comfortable with:
 
-* Arrays
-* Hash maps
-* Hash sets
-* Two pointers
-* Sliding window
-* Linked lists
-* Stacks
-* Queues
-* Basic Big O analysis
+* [ ] Arrays
+* [ ] Hash maps
+* [ ] Hash sets
+* [ ] Two pointers
+* [ ] Sliding window
+* [ ] Linked lists
+* [ ] Stacks
+* [ ] Queues
+* [ ] Basic Big O analysis
 
 ---
 
@@ -600,18 +604,18 @@ You should be comfortable with:
 
 **Learn**
 
-* Binary search
-* Left/right boundaries
-* Search space reduction
-* O(log n)
-* Binary search on sorted arrays
+* [ ] Binary search
+* [ ] Left/right boundaries
+* [ ] Search space reduction
+* [ ] O(log n)
+* [ ] Binary search on sorted arrays
 
 **Example Problems**
 
-* Binary Search
-* Search a 2D Matrix
-* Find Minimum in Rotated Sorted Array
-* Search in Rotated Sorted Array
+* [ ] Binary Search
+* [ ] Search a 2D Matrix
+* [ ] Find Minimum in Rotated Sorted Array
+* [ ] Search in Rotated Sorted Array
 
 **Target:** 4 problems
 
@@ -625,21 +629,21 @@ You should be comfortable with:
 
 **Learn**
 
-* Recursion
-* Base cases
-* Recursive calls
-* Call stacks
-* Merge sort
-* Quick sort
-* O(n log n)
+* [ ] Recursion
+* [ ] Base cases
+* [ ] Recursive calls
+* [ ] Call stacks
+* [ ] Merge sort
+* [ ] Quick sort
+* [ ] O(n log n)
 
 **Example Problems / Exercises**
 
-* Recursive Factorial
-* Fibonacci
-* Merge Sort
-* Quick Sort
-* Sort an Array
+* [ ] Recursive Factorial
+* [ ] Fibonacci
+* [ ] Merge Sort
+* [ ] Quick Sort
+* [ ] Sort an Array
 
 **Target:** 3–4 problems/exercises
 
@@ -653,22 +657,22 @@ You should be comfortable with:
 
 **Learn**
 
-* Tree terminology
-* Binary trees
-* DFS
-* BFS
-* Preorder traversal
-* Inorder traversal
-* Postorder traversal
-* Level-order traversal
+* [ ] Tree terminology
+* [ ] Binary trees
+* [ ] DFS
+* [ ] BFS
+* [ ] Preorder traversal
+* [ ] Inorder traversal
+* [ ] Postorder traversal
+* [ ] Level-order traversal
 
 **Example Problems**
 
-* Invert Binary Tree
-* Maximum Depth of Binary Tree
-* Same Tree
-* Subtree of Another Tree
-* Binary Tree Level Order Traversal
+* [ ] Invert Binary Tree
+* [ ] Maximum Depth of Binary Tree
+* [ ] Same Tree
+* [ ] Subtree of Another Tree
+* [ ] Binary Tree Level Order Traversal
 
 **Target:** 4–5 problems
 
@@ -682,25 +686,27 @@ You should be comfortable with:
 
 **Learn**
 
-* Binary Search Trees
-* BST properties
-* Tree search
-* Heap properties
-* Min heap
-* Max heap
-* Priority queues
+* [ ] Binary Search Trees
+* [ ] BST properties
+* [ ] Tree search
+* [ ] Heap properties
+* [ ] Min heap
+* [ ] Max heap
+* [ ] Priority queues
 
 **Example Problems**
 
-* Search in a Binary Search Tree
-* Validate Binary Search Tree
-* Kth Smallest Element in a BST
-* Kth Largest Element in a Stream
-* Last Stone Weight
+* [ ] Search in a Binary Search Tree
+* [ ] Validate Binary Search Tree
+* [ ] Kth Smallest Element in a BST
+* [ ] Kth Largest Element in a Stream
+* [ ] Last Stone Weight
 
 **Target:** 4–5 problems
 
 **Folder:** `10-heaps/`
+
+---
 
 ### October Checkpoint
 
@@ -708,15 +714,15 @@ You should be comfortable with:
 
 You should be comfortable implementing and explaining:
 
-* Binary search
-* Recursion
-* Merge sort
-* Quick sort
-* DFS
-* BFS
-* Binary trees
-* BSTs
-* Basic heaps
+* [ ] Binary search
+* [ ] Recursion
+* [ ] Merge sort
+* [ ] Quick sort
+* [ ] DFS
+* [ ] BFS
+* [ ] Binary trees
+* [ ] BSTs
+* [ ] Basic heaps
 
 ---
 
@@ -732,19 +738,19 @@ You should be comfortable implementing and explaining:
 
 **Learn**
 
-* Graph terminology
-* Nodes/vertices
-* Edges
-* Directed vs. undirected graphs
-* Adjacency lists
-* Adjacency matrices
-* Graph traversal
+* [ ] Graph terminology
+* [ ] Nodes/vertices
+* [ ] Edges
+* [ ] Directed vs. undirected graphs
+* [ ] Adjacency lists
+* [ ] Adjacency matrices
+* [ ] Graph traversal
 
 **Example Problems**
 
-* Number of Islands
-* Clone Graph
-* Find if Path Exists in Graph
+* [ ] Number of Islands
+* [ ] Clone Graph
+* [ ] Find if Path Exists in Graph
 
 **Target:** 3–4 problems
 
@@ -758,18 +764,18 @@ You should be comfortable implementing and explaining:
 
 **Learn**
 
-* BFS
-* Queues
-* Level-by-level traversal
-* Shortest path in unweighted graphs
-* Grid traversal
+* [ ] BFS
+* [ ] Queues
+* [ ] Level-by-level traversal
+* [ ] Shortest path in unweighted graphs
+* [ ] Grid traversal
 
 **Example Problems**
 
-* Number of Islands
-* Rotting Oranges
-* Binary Tree Level Order Traversal
-* Pacific Atlantic Water Flow
+* [ ] Number of Islands
+* [ ] Rotting Oranges
+* [ ] Binary Tree Level Order Traversal
+* [ ] Pacific Atlantic Water Flow
 
 **Target:** 3–4 problems
 
@@ -781,18 +787,18 @@ You should be comfortable implementing and explaining:
 
 **Learn**
 
-* Recursive DFS
-* Iterative DFS
-* Visited sets
-* Connected components
-* Cycle detection
+* [ ] Recursive DFS
+* [ ] Iterative DFS
+* [ ] Visited sets
+* [ ] Connected components
+* [ ] Cycle detection
 
 **Example Problems**
 
-* Number of Islands
-* Clone Graph
-* Course Schedule
-* Max Area of Island
+* [ ] Number of Islands
+* [ ] Clone Graph
+* [ ] Course Schedule
+* [ ] Max Area of Island
 
 **Target:** 4 problems
 
@@ -804,24 +810,26 @@ You should be comfortable implementing and explaining:
 
 **Learn**
 
-* Decision trees
-* Choose → Explore → Undo
-* Recursion
-* Backtracking
-* Permutations
-* Combinations
-* Subsets
+* [ ] Decision trees
+* [ ] Choose → Explore → Undo
+* [ ] Recursion
+* [ ] Backtracking
+* [ ] Permutations
+* [ ] Combinations
+* [ ] Subsets
 
 **Example Problems**
 
-* Subsets
-* Combination Sum
-* Permutations
-* Word Search
+* [ ] Subsets
+* [ ] Combination Sum
+* [ ] Permutations
+* [ ] Word Search
 
 **Target:** 3–4 problems
 
 **Folder:** `12-backtracking/`
+
+---
 
 ### November Checkpoint
 
@@ -831,11 +839,7 @@ At this point, the goal is to recognize:
 
 > "This looks like a graph problem."
 
-or
-
 > "This is probably DFS/BFS."
-
-or
 
 > "This requires a backtracking decision tree."
 
@@ -853,19 +857,19 @@ or
 
 **Learn**
 
-* Prefix sums
-* Range queries
-* Interval overlap
-* Sorting intervals
-* Merging intervals
+* [ ] Prefix sums
+* [ ] Range queries
+* [ ] Interval overlap
+* [ ] Sorting intervals
+* [ ] Merging intervals
 
 **Example Problems**
 
-* Range Sum Query
-* Product of Array Except Self
-* Merge Intervals
-* Insert Interval
-* Non-overlapping Intervals
+* [ ] Range Sum Query
+* [ ] Product of Array Except Self
+* [ ] Merge Intervals
+* [ ] Insert Interval
+* [ ] Non-overlapping Intervals
 
 **Target:** 4–5 problems
 
@@ -877,18 +881,18 @@ or
 
 **Learn**
 
-* Variable-size windows
-* Frequency maps
-* Window constraints
-* Expanding/shrinking windows
-* Combining hashing + sliding window
+* [ ] Variable-size windows
+* [ ] Frequency maps
+* [ ] Window constraints
+* [ ] Expanding/shrinking windows
+* [ ] Combining hashing + sliding window
 
 **Example Problems**
 
-* Longest Substring Without Repeating Characters
-* Longest Repeating Character Replacement
-* Permutation in String
-* Minimum Window Substring
+* [ ] Longest Substring Without Repeating Characters
+* [ ] Longest Repeating Character Replacement
+* [ ] Permutation in String
+* [ ] Minimum Window Substring
 
 **Target:** 4–5 Medium problems
 
@@ -902,18 +906,18 @@ or
 
 **Learn**
 
-* Stack-based problem solving
-* Monotonic increasing stacks
-* Monotonic decreasing stacks
-* Next greater/smaller elements
+* [ ] Stack-based problem solving
+* [ ] Monotonic increasing stacks
+* [ ] Monotonic decreasing stacks
+* [ ] Next greater/smaller elements
 
 **Example Problems**
 
-* Valid Parentheses
-* Min Stack
-* Evaluate Reverse Polish Notation
-* Daily Temperatures
-* Car Fleet
+* [ ] Valid Parentheses
+* [ ] Min Stack
+* [ ] Evaluate Reverse Polish Notation
+* [ ] Daily Temperatures
+* [ ] Car Fleet
 
 **Target:** 4–5 problems
 
@@ -925,20 +929,22 @@ or
 
 **Learn**
 
-* Greedy decision making
-* Priority queues
-* Top-K problems
-* When local decisions can produce a global solution
+* [ ] Greedy decision making
+* [ ] Priority queues
+* [ ] Top-K problems
+* [ ] When local decisions can produce a global solution
 
 **Example Problems**
 
-* Maximum Subarray
-* Jump Game
-* Task Scheduler
-* Kth Largest Element in an Array
-* Top K Frequent Elements
+* [ ] Maximum Subarray
+* [ ] Jump Game
+* [ ] Task Scheduler
+* [ ] Kth Largest Element in an Array
+* [ ] Top K Frequent Elements
 
 **Target:** 4–5 problems
+
+---
 
 ### December Checkpoint
 
@@ -966,20 +972,20 @@ to:
 
 **Learn**
 
-* What DP actually means
-* Overlapping subproblems
-* Memoization
-* Tabulation
-* State
-* Recurrence relationships
-* Base cases
+* [ ] What DP actually means
+* [ ] Overlapping subproblems
+* [ ] Memoization
+* [ ] Tabulation
+* [ ] State
+* [ ] Recurrence relationships
+* [ ] Base cases
 
 **Example Problems**
 
-* Fibonacci
-* Climbing Stairs
-* Min Cost Climbing Stairs
-* House Robber
+* [ ] Fibonacci
+* [ ] Climbing Stairs
+* [ ] Min Cost Climbing Stairs
+* [ ] House Robber
 
 **Target:** 3–4 problems
 
@@ -993,17 +999,17 @@ to:
 
 **Learn**
 
-* 1D DP arrays
-* State transitions
-* Bottom-up DP
-* Space optimization
+* [ ] 1D DP arrays
+* [ ] State transitions
+* [ ] Bottom-up DP
+* [ ] Space optimization
 
 **Example Problems**
 
-* House Robber
-* House Robber II
-* Coin Change
-* Word Break
+* [ ] House Robber
+* [ ] House Robber II
+* [ ] Coin Change
+* [ ] Word Break
 
 **Target:** 4–5 problems
 
@@ -1015,17 +1021,17 @@ to:
 
 **Learn**
 
-* 2D state
-* Grid DP
-* Comparing sequences
-* Building DP tables
+* [ ] 2D state
+* [ ] Grid DP
+* [ ] Comparing sequences
+* [ ] Building DP tables
 
 **Example Problems**
 
-* Unique Paths
-* Longest Common Subsequence
-* Longest Increasing Subsequence
-* Coin Change 2
+* [ ] Unique Paths
+* [ ] Longest Common Subsequence
+* [ ] Longest Increasing Subsequence
+* [ ] Coin Change 2
 
 **Target:** 3–4 problems
 
@@ -1037,21 +1043,23 @@ to:
 
 **Learn**
 
-* Topological sorting
-* Dijkstra's algorithm
-* Union-Find / Disjoint Set
-* Graph cycle detection
-* Weighted graphs
+* [ ] Topological sorting
+* [ ] Dijkstra's algorithm
+* [ ] Union-Find / Disjoint Set
+* [ ] Graph cycle detection
+* [ ] Weighted graphs
 
 **Example Problems**
 
-* Course Schedule
-* Course Schedule II
-* Network Delay Time
-* Redundant Connection
-* Min Cost to Connect All Points
+* [ ] Course Schedule
+* [ ] Course Schedule II
+* [ ] Network Delay Time
+* [ ] Redundant Connection
+* [ ] Min Cost to Connect All Points
 
 **Target:** 3–4 problems
+
+---
 
 ### January Checkpoint
 
@@ -1077,11 +1085,11 @@ Solve problems without following a single topic.
 
 **Example Problems**
 
-* Two Sum
-* Valid Parentheses
-* Binary Search
-* Number of Islands
-* Maximum Depth of Binary Tree
+* [ ] Two Sum
+* [ ] Valid Parentheses
+* [ ] Binary Search
+* [ ] Number of Islands
+* [ ] Maximum Depth of Binary Tree
 
 **Target:** 5 problems
 
@@ -1097,11 +1105,11 @@ Focus on solving Medium problems in approximately **20–30 minutes**.
 
 **Example Problems**
 
-* 3Sum
-* Group Anagrams
-* Product of Array Except Self
-* Longest Substring Without Repeating Characters
-* Binary Tree Level Order Traversal
+* [ ] 3Sum
+* [ ] Group Anagrams
+* [ ] Product of Array Except Self
+* [ ] Longest Substring Without Repeating Characters
+* [ ] Binary Tree Level Order Traversal
 
 **Target:** 4–5 problems
 
@@ -1113,26 +1121,26 @@ Focus on solving Medium problems in approximately **20–30 minutes**.
 
 Review your GitHub tracker and identify your weakest areas.
 
-Possible focus areas:
+**Possible Focus Areas**
 
-* Arrays
-* Hash Maps
-* Sliding Window
-* Linked Lists
-* Trees
-* Graphs
-* Backtracking
-* Dynamic Programming
+* [ ] Arrays
+* [ ] Hash Maps
+* [ ] Sliding Window
+* [ ] Linked Lists
+* [ ] Trees
+* [ ] Graphs
+* [ ] Backtracking
+* [ ] Dynamic Programming
 
-**Example approach**
+**Example Approach**
 
 If Trees are weak:
 
-* Invert Binary Tree
-* Maximum Depth of Binary Tree
-* Validate BST
-* Lowest Common Ancestor
-* Binary Tree Level Order Traversal
+* [ ] Invert Binary Tree
+* [ ] Maximum Depth of Binary Tree
+* [ ] Validate BST
+* [ ] Lowest Common Ancestor
+* [ ] Binary Tree Level Order Traversal
 
 **Target:** 4–5 problems
 
@@ -1146,19 +1154,19 @@ Complete **3 mock interviews**.
 
 Each session:
 
-* 5 minutes — Understand the problem
-* 5 minutes — Explain approach
-* 25 minutes — Code
-* 10 minutes — Test/debug
-* 5 minutes — Explain complexity
+* [ ] 5 minutes — Understand the problem
+* [ ] 5 minutes — Explain approach
+* [ ] 25 minutes — Code
+* [ ] 10 minutes — Test/debug
+* [ ] 5 minutes — Explain complexity
 
-**Example problems**
+**Example Problems**
 
-* Merge Intervals
-* Number of Islands
-* Lowest Common Ancestor
-* Coin Change
-* 3Sum
+* [ ] Merge Intervals
+* [ ] Number of Islands
+* [ ] Lowest Common Ancestor
+* [ ] Coin Change
+* [ ] 3Sum
 
 **Target:** 3 mock interviews
 
@@ -1188,11 +1196,11 @@ before thinking about implementation.
 
 **Example Problems**
 
-* 3Sum
-* Course Schedule
-* Daily Temperatures
-* House Robber
-* Search in Rotated Sorted Array
+* [ ] 3Sum
+* [ ] Course Schedule
+* [ ] Daily Temperatures
+* [ ] House Robber
+* [ ] Search in Rotated Sorted Array
 
 **Target:** 4–5 problems
 
@@ -1206,111 +1214,33 @@ Review your most important concepts.
 
 **Core Patterns**
 
-* Big O
-* Hash Maps
-* Two Pointers
-* Sliding Window
-* Binary Search
-* Linked Lists
-* Stacks
-* BFS
-* DFS
-* Trees
-* Heaps
-* Backtracking
-* Intervals
-* Greedy
-* Dynamic Programming
+* [ ] Big O
+* [ ] Hash Maps
+* [ ] Two Pointers
+* [ ] Sliding Window
+* [ ] Binary Search
+* [ ] Linked Lists
+* [ ] Stacks
+* [ ] BFS
+* [ ] DFS
+* [ ] Trees
+* [ ] Heaps
+* [ ] Backtracking
+* [ ] Intervals
+* [ ] Greedy
+* [ ] Dynamic Programming
 
 **Final Problem Set**
 
 Re-solve approximately 10 of your most difficult problems.
 
-Don't look at your previous solution.
-
-Then complete:
-
-* 2–3 mock interviews
-* 1 final review of Big O
-* 1 final review of JavaScript data structures
-* 1 final review of common interview patterns
+* [ ] Re-solve 10 difficult problems without looking at previous solutions
+* [ ] Complete 2–3 mock interviews
+* [ ] Complete 1 final review of Big O
+* [ ] Complete 1 final review of JavaScript data structures
+* [ ] Complete 1 final review of common interview patterns
 
 **Target:** 2–3 mock interviews + 10 re-solves
-
----
-
-# ⏱️ Daily Study Routine
-
-Target:
-
-**60–90 minutes per day**
-
-### Monday–Friday
-
-**10 min — Review**
-
-Review problems from previous days.
-
-**15–20 min — Learn**
-
-Watch/read the relevant concept.
-
-**30–45 min — Solve**
-
-Work on one problem without immediately looking at the solution.
-
-**10–15 min — Document**
-
-Record:
-
-* Approach
-* Why it works
-* Time complexity
-* Space complexity
-* What I got wrong
-* What pattern I learned
-
----
-
-# 📅 Weekly Schedule
-
-| Day       | Focus                        |
-| --------- | ---------------------------- |
-| Monday    | Learn concept + Easy problem |
-| Tuesday   | Easy/Medium problem          |
-| Wednesday | Medium problem               |
-| Thursday  | Medium problem               |
-| Friday    | Review + re-solve            |
-| Saturday  | Optional catch-up            |
-| Sunday    | Rest                         |
-
----
-
-# 🧠 Problem-Solving Process
-
-For every problem, follow this process:
-
-```text
-1. Understand the problem
-        ↓
-2. Identify inputs / outputs
-        ↓
-3. Write a few examples
-        ↓
-4. Think of brute force
-        ↓
-5. Identify the pattern
-        ↓
-6. Improve the approach
-        ↓
-7. Analyze Big O
-        ↓
-8. Write the code
-        ↓
-9. Test edge cases
-        ↓
-10. Explain the solution
-```
 
 ---
 
@@ -1320,29 +1250,15 @@ Don't solve a problem once and forget it.
 
 Review difficult problems:
 
-* **1 day later**
-* **1 week later**
-* **1 month later**
+* [ ] 1 day later
+* [ ] 1 week later
+* [ ] 1 month later
 
 The goal is to eventually solve the problem without needing your previous solution.
 
 ---
 
-# 📊 Progress Tracker
-
----
-
-## System Design
-
-- [ ] September — Foundations
-- [ ] October — APIs, databases, caching, scaling
-- [ ] November — Reliability, queues, rate limiting, observability
-- [ ] December — System design practice
-- [ ] January — CRM + Quantum Invoice architecture
-- [ ] February — Mock designs
-- [ ] March — Final review
-
----
+# 📊 DSA Progress Tracker
 
 ## September
 
@@ -1369,6 +1285,7 @@ The goal is to eventually solve the problem without needing your previous soluti
 * [ ] Heaps
 
 **Target:** ~20 problems
+
 **Cumulative:** ~30–35
 
 ---
@@ -1381,6 +1298,7 @@ The goal is to eventually solve the problem without needing your previous soluti
 * [ ] Backtracking
 
 **Target:** ~18 problems
+
 **Cumulative:** ~50–55
 
 ---
@@ -1395,6 +1313,7 @@ The goal is to eventually solve the problem without needing your previous soluti
 * [ ] Top K
 
 **Target:** ~20 problems
+
 **Cumulative:** ~70–75
 
 ---
@@ -1407,6 +1326,7 @@ The goal is to eventually solve the problem without needing your previous soluti
 * [ ] Advanced Graphs
 
 **Target:** ~18 problems
+
 **Cumulative:** ~90
 
 ---
