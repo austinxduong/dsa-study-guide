@@ -79,7 +79,7 @@ System Design is a secondary track during the first few months and becomes more 
 
 ## Week 1 — What Is System Design?
 
-- [ ] Understand what system design means
+- [X] Understand what system design means
 - [ ] Understand client/server architecture
 - [ ] Understand frontend vs backend
 - [ ] Understand request/response
