@@ -1,4 +1,4 @@
-    twoSum(nums, target) {
+function twoSum(nums, target) {
         const sum = []
 
         for (let i =0; i < nums.length; i++) {
@@ -14,3 +14,23 @@
     // brute force
     // 0(n2) - time because there is nested loops - for each items, we are doing something with every other item. 
     // O(1) - space because we are only storing a constant size 2 for variable sum
+
+
+    function twoSum(nums, target) {
+        const hashMap = new Map()
+
+        for (let i=0; i < nums.length; i++) {
+            const match = target - nums[i]
+            
+            if (hashMap.has(match) && nums[i] + match === target && hashMap.get(match) !== i) {
+                const pairs = [hashMap.get(match), i]
+                const sortedArray = pairs.sort((a,b) => a-b)
+                return sortedArray
+            }
+            hashMap.set(nums[i], i)
+        }
+    }
+
+// optimized 
+// O(n) - time because we loop the to the size proportionate of nums array,
+// O(n)- space because the space size of hash map is proportionate the size of the nums array

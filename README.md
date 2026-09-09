@@ -80,14 +80,14 @@ System Design is a secondary track during the first few months and becomes more 
 ## Week 1 — What Is System Design?
 
 - [X] Understand what system design means
-- [ ] Understand client/server architecture
-- [ ] Understand frontend vs backend
-- [ ] Understand request/response
-- [ ] Understand HTTP
-- [ ] Understand HTTPS
-- [ ] Understand domains
-- [ ] Understand DNS
-- [ ] Understand IP addresses
+- [X] Understand client/server architecture
+- [X] Understand frontend vs backend
+- [X] Understand request/response
+- [X] Understand HTTP
+- [X] Understand HTTPS
+- [X] Understand domains
+- [X] Understand DNS
+- [X] Understand IP addresses
 
 ---
 
@@ -485,7 +485,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 **Example Problems**
 
 * [x] Contains Duplicate
-* [ ] Two Sum
+* [X] Two Sum
 * [ ] Best Time to Buy and Sell Stock
 * [X] Valid Anagram
 
