@@ -486,7 +486,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 * [x] Contains Duplicate
 * [X] Two Sum
-* [ ] Best Time to Buy and Sell Stock
+* [ ] Group Anagrams
 * [X] Valid Anagram
 
 **Target:** 3–4 problems
@@ -513,7 +513,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [ ] Contains Duplicate
 * [ ] Valid Anagram
 * [ ] Two Sum
-* [ ] Group Anagrams
+* [ ] (substitude a problem here)
 
 **Target:** 3–4 problems
 

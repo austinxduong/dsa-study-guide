@@ -24,3 +24,9 @@ Other common examples of O(1):
 numbers.push(100);
 numbers.pop();
 */
+
+function printNumbers(numbers) {
+    for (const number of numbers) {
+        console.log(number);
+    }
+}

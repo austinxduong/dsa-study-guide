@@ -1,4 +1,4 @@
-    isAnagram(s, t) {
+function isAnagram(s, t) {
         const hashMap = {}
 
         if (s.length !== t.length) {
@@ -24,3 +24,6 @@ Constraints:
 
 // O(n) - time because we loop over the amount of elements, proportionate to the size of s and t
 // O(1) - space because there are only ever 26 possible keys MAX from the alphabet which sets a max ceiling that is constant 
+
+
+
