@@ -21,4 +21,4 @@ function groupAnagrams(strs) {
 */
 
 // O(N •M)- time because we are looping over the array which is proportionate to the size of the array. then inside the loop, we have to invidually sort each letter
-// O(n) - space because first we store key/values to the size of proportionate to the array length
+// O(N •M) - space because first we store key to the size of proportionate to the array length, the total character data stored in hashMap scales with both how many strings there (key) are and how long they are (value)
