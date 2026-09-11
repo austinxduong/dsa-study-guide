@@ -477,17 +477,19 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [x] Big O notation
 * [x] Time complexity
 * [x] Space complexity
-* [ ] Arrays
-* [ ] Array traversal
-* [ ] Searching
-* [ ] Basic manipulation
+* [X] Arrays
+* [X] Array traversal
+* [X] Searching
+* [X] Basic manipulation
 
 **Example Problems**
 
 * [x] Contains Duplicate
 * [X] Two Sum
-* [ ] Group Anagrams
+* [X] Group Anagrams
 * [X] Valid Anagram
+* [X] Top K Frequent Elements
+
 
 **Target:** 3–4 problems
 
@@ -501,7 +503,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 **Learn**
 
-* [ ] Hash maps
+* [X] Hash maps
 * [ ] Hash sets
 * [ ] Key/value relationships
 * [ ] Frequency counting

@@ -1,0 +1,21 @@
+function topKFrequent(nums, k) {
+        const hashMap = {}
+        let match = []
+
+        for (const num of nums) {
+            hashMap[num] = (hashMap[num] || 0) + 1
+        }
+        for (const [key, value] of Object.entries(hashMap)) {
+            match.push([key, value])
+        }
+        const sortedMatch = match.sort((a, b) => b[1] - a[1])
+        const result = sortedMatch.slice(0, k).map(([key]) => Number(key))
+        console.log(result)
+        return result
+    }
+
+// O(N log N) - time because building the hashMap is a single pass — for each of the n numbers, you do one O(1) lookup-and-increment, so it's n total operations, no repeated comparisons needed. 
+// Sorting, on the other hand, has to repeatedly compare items against each other to figure out their correct relative order — 
+// and doing that for n items takes roughly n log n total comparisons, because of how efficient comparison-based sorting algorithms are structured
+
+// 0(n) - space because we are storing two variables hashMap and match, and the size of those spaces is proportinate to the size of our nums array
