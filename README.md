@@ -489,6 +489,8 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [X] Group Anagrams
 * [X] Valid Anagram
 * [X] Top K Frequent Elements
+* [X] Ecode abd Decode Strings
+* [ ] Product of Array Except Self
 
 
 **Target:** 3–4 problems
