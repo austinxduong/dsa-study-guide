@@ -490,7 +490,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [X] Valid Anagram
 * [X] Top K Frequent Elements
 * [X] Ecode abd Decode Strings
-* [ ] Product of Array Except Self
+* [X] Product of Array Except Self
 
 
 **Target:** 3–4 problems
@@ -514,7 +514,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 **Example Problems**
 
-* [ ] Contains Duplicate
+* [X] Valid Sudoku
 * [ ] Valid Anagram
 * [ ] Two Sum
 * [ ] (substitude a problem here)
