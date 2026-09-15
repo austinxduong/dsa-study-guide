@@ -506,7 +506,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 **Learn**
 
 * [X] Hash maps
-* [ ] Hash sets
+* [X] Hash sets
 * [ ] Key/value relationships
 * [ ] Frequency counting
 * [ ] Lookup optimization
@@ -515,7 +515,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 **Example Problems**
 
 * [X] Valid Sudoku
-* [ ] Valid Anagram
+* [X] Longest Consecutive Sequence
 * [ ] Two Sum
 * [ ] (substitude a problem here)
 

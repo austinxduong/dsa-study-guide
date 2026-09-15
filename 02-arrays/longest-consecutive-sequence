@@ -1,0 +1,75 @@
+function  longestConsecutive(nums) {
+        let final = new Set()
+        let consec = []
+        let longest = 0
+        
+        for (let i=0; i < nums.length; i++) {
+            final.add(nums[i])
+        }
+        for (let value of final) {
+            if (final.has(value - 1)) {
+                continue
+            }
+            if (final.has(value + 1)) { // 3 + 1 = 4
+                consec.push(value) // starting point
+                
+                let increment = value + 1 // = 3 + 1 = 4
+                let length = 1
+                length++ // length now equals 4
+                while (final.has(increment + 1)) { // 4 + 1 = 5 ( 5 doesnt exist - dont increment)
+                    consec.push(value)
+                    increment++ // length stays 4
+                    length++
+                }
+                longest = length // assign = 4
+            }
+        }
+        return longest
+    }
+
+// nums = [100, 4, 200, 1, 3, 2]
+
+/*
+length = 4
+increment = (value) 1 + 1 = 2
+*/
+
+//refactored
+function longestConsecutive(nums) {
+        let final = new Set()
+        let longest = 0
+        
+        for (let i=0; i < nums.length; i++) {
+            final.add(nums[i])
+        }
+        for (let value of final) {
+            if (final.has(value - 1)) {
+                continue
+            }
+            let length = 1 // if there are only one unequie values in the array skip to the next if check below and return 1. no extra looping needed so no predecessor or successor 
+            if (final.has(value + 1)) { // 3 + 1 = 4
+                // starting point
+                
+                let increment = value + 1 // = 3 + 1 = 4
+                length++ // length now equals 4
+                while (final.has(increment + 1)) { // 4 + 1 = 5 ( 5 doesnt exist - dont increment)
+                    increment++ // length stays 4
+                    length++
+                }
+            }
+            if (length > longest ) {
+                longest = length
+            }
+        }
+        return longest
+    }
+
+// nums = [100, 4, 200, 1, 3, 2]
+
+/*
+length = 4
+increment = (value) 1 + 1 = 2
+*/
+
+// O(n) - time because loop is proportionate to the input size.  its not O(n2) - all were doing is taking a number, checking it, and incrementing it. and also because were not taking each number and doing something with every other number. 
+// O(n) - space because were keeping track of set (which grows proportionate to the size of the array) which makes it O(n) even though our varibles longest, length, increment are constant space.
