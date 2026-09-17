@@ -1,0 +1,36 @@
+function  twoSum(numbers, target) {
+        let sum = [];
+
+        for (let i=0; i < numbers.length; i++) {
+            for (let j = i + 1; j < numbers.length; j++) {
+                if (numbers[i] + numbers[j] === target) {
+                    sum.push(i + 1, j + 1)
+                    return sum
+                }
+            }
+        }
+    }
+
+    // this was too inefficient. space is O(1) but time was O(n2)
+
+function twoSum(numbers, target) {
+        let sum = []; // initialize emtpy array
+        let leftPointer = 0 // starting at index 0
+        let rightPointer = numbers.length - 1 // starting at last index of array
+
+        while (leftPointer < rightPointer) { // while the left index is smaller than the right index, keep looping
+            let currentSum = numbers[leftPointer] + numbers[rightPointer] // the sum we will be leftPointer + rightPointer added up as a pair
+            
+            if (currentSum === target) { // if the left and right pointers equal to targer
+                sum.push(leftPointer + 1, rightPointer + 1) // push those indexes + 1 to empty array
+                return sum // return those indices
+            } else if (currentSum < target) { // if the left and right pointers have a sum less than target
+                leftPointer++ // increment the left right once, right pointer stays put
+            } if (currentSum > target) { // if the sum is bigger than targer
+                rightPointer-- // left pointer stays put, and right pointer decrements 1 to the left
+            }
+        }
+    }
+
+    // O(n) time - because were only looping once, and both pointers move inward proportionate to the size of numbers array until the target is reach
+    // O(1) space - because we are only keeipg track of sum, leftPointer, and rightPointer - those values dont grow in size, they just update, and stay constant 
