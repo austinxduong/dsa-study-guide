@@ -517,7 +517,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [X] Valid Sudoku
 * [X] Longest Consecutive Sequence
 * [X] Valid Palindrome
-* [ ] Two Integer Sum II
+* [X] Two Integer Sum II
 
 **Target:** 3–4 problems
 

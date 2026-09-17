@@ -26,7 +26,7 @@ function twoSum(numbers, target) {
                 return sum // return those indices
             } else if (currentSum < target) { // if the left and right pointers have a sum less than target
                 leftPointer++ // increment the left right once, right pointer stays put
-            } if (currentSum > target) { // if the sum is bigger than targer
+            } else if (currentSum > target) { // if the sum is bigger than targer
                 rightPointer-- // left pointer stays put, and right pointer decrements 1 to the left
             }
         }
