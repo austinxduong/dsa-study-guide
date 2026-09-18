@@ -93,13 +93,13 @@ System Design is a secondary track during the first few months and becomes more 
 
 ## Week 2 — APIs & Web Communication
 
-- [ ] Understand APIs
-- [ ] Understand REST
-- [ ] Understand HTTP methods
-- [ ] Understand GET
-- [ ] Understand POST
-- [ ] Understand PUT/PATCH
-- [ ] Understand DELETE
+- [X] Understand APIs
+- [X] Understand REST
+- [X] Understand HTTP methods
+- [X] Understand GET
+- [X] Understand POST
+- [X] Understand PUT/PATCH
+- [X] Understand DELETE
 - [ ] Understand HTTP status codes
 - [ ] Understand headers
 - [ ] Understand request bodies
