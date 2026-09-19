@@ -519,6 +519,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [X] Valid Palindrome
 * [X] Two Integer Sum II
 * [X] 3Sum
+* [X] Container with most water
 
 **Target:** 3–4 problems
 
