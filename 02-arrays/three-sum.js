@@ -1,4 +1,4 @@
-function threeSum(nums) {
+function  threeSum(nums) {
         let triplets = []
         let sorted = nums.sort((a, b) => a-b)
 
@@ -19,6 +19,13 @@ function threeSum(nums) {
                     triplets.push([sorted[i], sorted[leftPointer], sorted[rightPointer]]) // push those values
                     leftPointer++ // move the left pointer to the right once
                     rightPointer-- // move the right pointer to the left once
+                    
+                    while (leftPointer < rightPointer && sorted[leftPointer] === sorted [leftPointer - 1]) {
+                        leftPointer++ //Compare the new position to the position just behind it (leftPointer - 1). If the values are identical, you've landed on a duplicate of the value you just used. SKIP
+                    }
+                    while(leftPointer > rightPointer && sorted[rightPointer] === sorted[rightPointer + 1] ) {
+                        rightPointer-- // Compare the new position to the position just ahead of it (rightPointer + 1). If the values are identical, you've landed on a duplicate of the value you just used. SKIP
+                    }   
                 } else if (sum < 0) { // is sum is less than 0 (too small)
                     leftPointer++ // move left pointer to the right once
                 } else if ( sum > 0) { // is sum is greater than 0 (too big)
