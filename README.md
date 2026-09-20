@@ -507,10 +507,10 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 * [X] Hash maps
 * [X] Hash sets
-* [ ] Key/value relationships
-* [ ] Frequency counting
-* [ ] Lookup optimization
-* [ ] When hashing reduces O(n²) → O(n)
+* [X] Key/value relationships
+* [X] Frequency counting
+* [X] Lookup optimization
+* [X] When hashing reduces O(n²) → O(n)
 
 **Example Problems**
 
@@ -520,6 +520,8 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [X] Two Integer Sum II
 * [X] 3Sum
 * [X] Container with most water
+* [X] Trapping Rain Water
+
 
 **Target:** 3–4 problems
 
