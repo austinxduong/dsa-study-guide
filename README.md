@@ -100,11 +100,11 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Understand POST
 - [X] Understand PUT/PATCH
 - [X] Understand DELETE
-- [ ] Understand HTTP status codes
-- [ ] Understand headers
-- [ ] Understand request bodies
-- [ ] Understand JSON
-- [ ] Understand authentication basics
+- [X] Understand HTTP status codes
+- [X] Understand headers
+- [X] Understand request bodies
+- [X] Understand JSON
+- [X] Understand authentication basics
 
 ---
 
