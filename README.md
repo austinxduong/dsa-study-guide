@@ -535,7 +535,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 **Learn**
 
-* [ ] Left/right pointers
+* [X] Left/right pointers
 * [ ] Fast/slow pointers
 * [ ] Fixed-size windows
 * [ ] Dynamic windows
@@ -543,7 +543,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 **Example Problems**
 
-* [ ] Valid Palindrome
+* [X] Best time to buy & sell stock
 * [ ] Two Sum II
 * [ ] 3Sum
 * [ ] Best Time to Buy and Sell Stock

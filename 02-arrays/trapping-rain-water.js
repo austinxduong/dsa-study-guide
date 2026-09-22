@@ -24,6 +24,11 @@ function  trap(height) {
 // O(n) - time because we only loop once, with if checks finding the max values. and the time length we have to loop is proportionate to the size of the the input array
 // O(1) - space because we are only keeping track of left, right, leftMax, rightMax, and total water which doesn't grow in size and just updates, which makes it O(1).
 
+/*
+Whichever side is shorter gets processed and pushed inward, because the shorter wall is always the "limiting factor" that controls how high water can rise. 
+The taller wall sits still and acts as an anchor until the other pointer finds something even taller
+*/
+
 
 /*
 ===================================================================
@@ -62,6 +67,68 @@ Check: Is height[left] < height[right]? (1 < 4 -> YES)
 Step 3: Pointers meet (left == right)
 -------------------------------------------------------------------
 Pointers:  left = 2, right = 2
+
+Condition: while (left < right) is now FALSE. The loop terminates.
+
+===================================================================
+Final Output: totalwater = 2
+===================================================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+===================================================================
+Step-by-Step Walkthrough: When the 'else' block triggers
+Array: height = [4, 1, 3]
+===================================================================
+
+Visual Layout:
+    Index:   0    1    2
+    Height:  4    1    3
+
+-------------------------------------------------------------------
+Step 1: Start pointers at outer edges
+-------------------------------------------------------------------
+Pointers:  left = 0 (height 4), right = 2 (height 3)
+State:     leftMax = 0, rightMax = 0, totalwater = 0
+
+Check: Is height[left] < height[right]? (4 < 3 -> FALSE)
+    -> Executes the 'else' block!
+    1. Update rightMax:  Math.max(0, 3) = 3 (Index 2 becomes our right wall)
+    2. Water at index 2: rightMax - height[right] = 3 - 3 = 0
+    3. Advance pointer: right-- -> right is now 1
+
+-------------------------------------------------------------------
+Step 2: Move into index 1
+-------------------------------------------------------------------
+Pointers:  left = 0 (height 4), right = 1 (height 1)
+State:     leftMax = 0, rightMax = 3, totalwater = 0
+
+Check: Is height[left] < height[right]? (4 < 1 -> FALSE)
+    -> Executes the 'else' block again!
+    1. Update rightMax:  Math.max(3, 1) = 3
+    2. Water at index 1: rightMax - height[right] = 3 - 1 = 2
+                        (Trapped between left wall 4 and right wall 3)
+    3. Add to total:    totalwater = 0 + 2 = 2
+    4. Advance pointer: right-- -> right is now 0
+
+-------------------------------------------------------------------
+Step 3: Pointers meet (left == right)
+-------------------------------------------------------------------
+Pointers:  left = 0, right = 0
 
 Condition: while (left < right) is now FALSE. The loop terminates.
 
