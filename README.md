@@ -110,8 +110,8 @@ System Design is a secondary track during the first few months and becomes more 
 
 ## Week 3 — Application Architecture
 
-- [ ] Understand frontend → API → backend → database
-- [ ] Understand separation of concerns
+- [X] Understand frontend → API → backend → database
+- [X] Understand separation of concerns
 - [ ] Understand services
 - [ ] Understand stateless applications
 - [ ] Understand stateful applications
