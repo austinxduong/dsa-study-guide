@@ -30,6 +30,10 @@ function lengthOfLongestSubstring(s) {
     maxLength still gets recomputed (Math.max(2, 4 - 2) = 2, no change), and char still gets reassigned to s[4] — which is undefined, since the string only has indices 0 through 3. 
     That's harmless here, though, because right after that, the while loop rechecks its condition: right (4) < s.length (4) is false, so the loop exits there — not because the if was skipped, 
     but because the outer while condition finally failed on the next check.
+
+    we do > because if our left pointer is at index 0, but we have our first duplicate inside our window at index 1, and our right pointer is at index 2.
+    our first duplicate at index. 1 IS greater than our left pointer. and we need the = sign because if our left index is at 0, and our right pointer is at index 1, 
+    and they are both consecutive duplicates, our first duplicate IS the same as index 0 which make it = true. so we move the left 1 index up
     */
 
 // O(n) - time because were using only one loop, and iterating through the whole array proportinate to the size of the array.

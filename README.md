@@ -544,8 +544,8 @@ Focus: Build the fundamental tools that everything else will depend on.
 **Example Problems**
 
 * [X] Best time to buy & sell stock
-* [ ] Two Sum II
-* [ ] 3Sum
+* [X] Longest substring without repeating characters
+* [X] Longest repeating character replacement
 * [ ] Best Time to Buy and Sell Stock
 * [ ] Longest Substring Without Repeating Characters
 
