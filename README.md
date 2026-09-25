@@ -546,7 +546,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [X] Best time to buy & sell stock
 * [X] Longest substring without repeating characters
 * [X] Longest repeating character replacement
-* [ ] Best Time to Buy and Sell Stock
+* [X] Permutation in string
 * [ ] Longest Substring Without Repeating Characters
 
 **Target:** 4 problems
