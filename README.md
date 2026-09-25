@@ -113,8 +113,8 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Understand frontend → API → backend → database
 - [X] Understand separation of concerns
 - [ ] Understand services
-- [ ] Understand stateless applications
-- [ ] Understand stateful applications
+- [X] Understand stateless applications
+- [X] Understand stateful applications
 - [ ] Draw a basic architecture diagram
 - [ ] Explain how a request travels through the system
 
