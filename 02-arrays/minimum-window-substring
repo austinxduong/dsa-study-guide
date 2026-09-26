@@ -1,0 +1,58 @@
+function  minWindow(s, t) {
+        let map = new Map()
+        let windowMap = new Map()
+        let leftPointer = 0;
+        let windowLength = 0
+        let minLength = Infinity
+        let validLeftPointer = 0
+        
+        let formed = 0
+        
+        for (let i = 0; i < t.length; i++) {
+            if (map.has(t[i])) {
+                let currentCount = map.get(t[i])
+                map.set(t[i], currentCount + 1)
+            } else {
+                map.set(t[i], 1)
+            }  
+        }
+        let required = map.size
+
+        for (let right = 0; right < s.length; right++) {
+            if (windowMap.has(s[right])) {
+                let currentCount = windowMap.get(s[right])
+                windowMap.set(s[right], currentCount + 1)
+            } else {
+                windowMap.set(s[right], 1)
+            }
+
+            if (map.has(s[right]) && windowMap.get(s[right]) === map.get(s[right])) {
+            formed++
+            }
+
+            while (required === formed) {
+            windowLength = right - leftPointer + 1
+
+            if (windowLength < minLength) {
+                minLength = windowLength
+                validLeftPointer = leftPointer
+            }
+            if (windowMap.has(s[leftPointer]) && windowMap.get(s[leftPointer]) === map.get(s[leftPointer])) {
+                formed--
+            }
+            let currentCount = windowMap.get(s[leftPointer])
+            windowMap.set(s[leftPointer], currentCount - 1)
+            leftPointer++
+            }
+        }
+        if (minLength === Infinity) {
+            return ""
+        }
+        return s.slice(validLeftPointer, minLength + validLeftPointer)
+    }
+
+// O(n) - time because our first loops adds t string to the map, and our second loop adds s string the map. 
+// we iterate the amount of times proportionate to the size of string s or string t when adding items to the map, finding our valid window, 
+// where the window stretches and shrinks based on whether required and formed are equal, each time storing/preserving the best minimum case. finally splitting the string. 
+
+// O1) - space because the max fixed size of 52 from all possible lowercase, and uppercase letters in the alphabet 26 * 2 
