@@ -1,0 +1,38 @@
+function maxSlidingWindow(nums, k) {
+        let results = []
+        let candidate = []
+
+        for (let right = 0; right < nums.length; right++) {
+            if (candidate.length > 0 && candidate[0] < right - k + 1) {
+                candidate.shift()
+            }
+            while (candidate.length !== 0 && nums[right] >= nums[candidate[candidate.length - 1]]) {
+                candidate.pop()
+            }
+            candidate.push(right)
+
+            if (right >= k - 1) {
+                results.push(nums[candidate[0]])
+            }
+        }
+     return results
+    }
+
+// nums = [1, 3, -1, -3, 5, 3, 6, 7], k = 3
+
+// right 0, if doesn't fire. while loop doesnt fire. candidate now has [0]. right 1, if doesn't fire but while loop fires and pops 0 out. 
+// candidate only has index 1 now. right 2, if doesnt fire, while loop doesn't fire cause -1 is not bigger than 3, so it gets added candidate is now [1, 2]. right 3, 
+// if doesnt fire, while loop does fire because -3 is not bigger than -1 so it gets added. candidate is now [1, 2, 3]. right 4, if fires and 1 gets popped. 
+// 5 is bigger than -3, so -3 is popped. 5 is bigger than 1, and 3, and -1 so all those get popped. only 5 remains in the candidate
+
+// so when right is 2. index 1, which is value 3 gets pushed. when right is 3, index 1, which is value 3 gets pushed. when right is 4, 
+// index 4 which is value 5 gets pushed. right is 5, index 4 is value 5, so 5 gets pushed again. right is 6, and pops out 5 and 3, so it pushes index 6 which is value 6. 
+// right is 7, and pops out 6, and pushes index 7, which is value 7.
+
+// O(n) - time because we loop and until our window is full, then we begin shifting, where we continuously push the current value from index 0 from our candidate arrays to the final array
+// technically there is a while loop in the for loop which one could assume a O(n2) time. but candidate push happens after the shift and pops happen at each iteration, proportionate to nums array at max. 
+// every pop happens its gone for good, and we are never re-popping a same element ever at any iteration, which caps out of the max of n. that means total work, n pushes, and n pops can never exceed n in either cases.
+// What would actually cause O(n²) is if a single element could be popped, and then get pushed back onto the list again later, and popped again, and pushed again... repeatedly. which is not whats happening.
+
+// O(n) space - because space is O(n) because although our candidate shrinks and expands based on qualified candidates to a max of k which is O(n), 
+// our results array expands proportionate to the size of max amounts we captures per window, based on the size of our nums array which makes it O(n)

@@ -537,9 +537,9 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 * [X] Left/right pointers
 * [ ] Fast/slow pointers
-* [ ] Fixed-size windows
-* [ ] Dynamic windows
-* [ ] When to expand/shrink a window
+* [X] Fixed-size windows
+* [X] Dynamic windows
+* [X] When to expand/shrink a window
 
 **Example Problems**
 
@@ -547,7 +547,8 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [X] Longest substring without repeating characters
 * [X] Longest repeating character replacement
 * [X] Permutation in string
-* [ ] Longest Substring Without Repeating Characters
+* [X] Minimum window substring
+* [X] Sliding window maximum
 
 **Target:** 4 problems
 
