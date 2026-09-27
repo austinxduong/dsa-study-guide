@@ -23,7 +23,7 @@ function  threeSum(nums) {
                     while (leftPointer < rightPointer && sorted[leftPointer] === sorted [leftPointer - 1]) {
                         leftPointer++ //Compare the new position to the position just behind it (leftPointer - 1). If the values are identical, you've landed on a duplicate of the value you just used. SKIP
                     }
-                    while(leftPointer > rightPointer && sorted[rightPointer] === sorted[rightPointer + 1] ) {
+                    while(leftPointer < rightPointer && sorted[rightPointer] === sorted[rightPointer + 1] ) {
                         rightPointer-- // Compare the new position to the position just ahead of it (rightPointer + 1). If the values are identical, you've landed on a duplicate of the value you just used. SKIP
                     }   
                 } else if (sum < 0) { // is sum is less than 0 (too small)

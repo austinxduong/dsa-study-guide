@@ -536,7 +536,6 @@ Focus: Build the fundamental tools that everything else will depend on.
 **Learn**
 
 * [X] Left/right pointers
-* [ ] Fast/slow pointers
 * [X] Fixed-size windows
 * [X] Dynamic windows
 * [X] When to expand/shrink a window
@@ -549,6 +548,8 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [X] Permutation in string
 * [X] Minimum window substring
 * [X] Sliding window maximum
+* [X] Valid Parenthesis (start of learning stack)
+
 
 **Target:** 4 problems
 
