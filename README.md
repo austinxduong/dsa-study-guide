@@ -125,10 +125,10 @@ System Design is a secondary track during the first few months and becomes more 
 - [ ] Understand relational databases
 - [ ] Understand SQL
 - [ ] Understand NoSQL
-- [ ] Understand tables
-- [ ] Understand rows
-- [ ] Understand columns
-- [ ] Understand primary keys
+- [X] Understand tables
+- [X] Understand rows
+- [X] Understand columns
+- [X] Understand primary keys
 - [ ] Understand foreign keys
 - [ ] Understand relationships
 - [ ] Design a basic database schema
