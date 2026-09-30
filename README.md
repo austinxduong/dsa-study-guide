@@ -572,8 +572,8 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 **Example Problems**
 
-* [ ] Reverse Linked List
-* [ ] Merge Two Sorted Lists
+* [X] Min stack
+* [X] Evlauate reverse polish notation
 * [ ] Linked List Cycle
 * [ ] Valid Parentheses
 * [ ] Min Stack

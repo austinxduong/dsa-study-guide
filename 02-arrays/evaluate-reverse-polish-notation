@@ -1,0 +1,28 @@
+function  evalRPN(tokens) {
+        let map = new Map()
+        let stack = []
+
+        map.set("+", (a, b) => a + b)
+        map.set("-", (a, b) => a - b)
+        map.set("*", (a, b) => a * b)
+        map.set("/", (a, b) => Math.trunc(a / b))
+
+        for (let i = 0; i < tokens.length; i++) {
+            if (map.has(tokens[i]) === false) {
+                stack.push(Number(tokens[i]))
+            } else if (map.has(tokens[i]) === true) {
+                let firstPop = stack.pop()
+                let secondPop = stack.pop()
+                let results = map.get(tokens[i])(secondPop, firstPop)
+                stack.push(results)
+            }
+        }
+        return stack.pop()
+    }
+
+// O(n) - time because we loop and add each valid number to our stack, even though we manually map a fixed amount of 4 operators which is O(1). 
+// within our loop, once a operator is matched in the array, we extract the value function, pop the first two numbers in our stack and perform the calculation, 
+// and push that calculated result back into our stack. this iteration sweeps our entire tokens array once, proportionate to the size of our tokens array.
+
+// O(n) - space because our stack stretches proportionate to the size of our tokens array, pushing total amount of valid numbers, and finally shrinks to single number in our stack, 
+// pushing that final result from our stack. even though our map contains a fixed size of 4 operands, O(n) take precedence.
