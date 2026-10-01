@@ -129,8 +129,8 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Understand rows
 - [X] Understand columns
 - [X] Understand primary keys
-- [ ] Understand foreign keys
-- [ ] Understand relationships
+- [X] Understand foreign keys
+- [X] Understand relationships
 - [ ] Design a basic database schema
 
 ---
@@ -567,7 +567,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [ ] Node traversal
 * [ ] Reversing linked lists
 * [ ] Fast/slow pointers
-* [ ] Stack operations
+* [X] Stack operations
 * [ ] Queue operations
 
 **Example Problems**
