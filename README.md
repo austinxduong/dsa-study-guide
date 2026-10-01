@@ -574,7 +574,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 * [X] Min stack
 * [X] Evlauate reverse polish notation
-* [ ] Linked List Cycle
+* [X] Daily temperatures
 * [ ] Valid Parentheses
 * [ ] Min Stack
 
