@@ -575,7 +575,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [X] Min stack
 * [X] Evlauate reverse polish notation
 * [X] Daily temperatures
-* [ ] Valid Parentheses
+* [X] Car fleet
 * [ ] Min Stack
 
 **Target:** 4–5 problems
