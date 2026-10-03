@@ -576,7 +576,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [X] Evlauate reverse polish notation
 * [X] Daily temperatures
 * [X] Car fleet
-* [ ] Min Stack
+* [X] Largest Rectangle in Historgram
 
 **Target:** 4–5 problems
 
