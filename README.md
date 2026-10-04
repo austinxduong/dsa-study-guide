@@ -131,7 +131,7 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Understand primary keys
 - [X] Understand foreign keys
 - [X] Understand relationships
-- [ ] Design a basic database schema
+- [X] Design a basic database schema
 
 ---
 
