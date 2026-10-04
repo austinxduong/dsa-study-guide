@@ -122,7 +122,7 @@ System Design is a secondary track during the first few months and becomes more 
 
 ## Week 4 — Database Fundamentals
 
-- [ ] Understand relational databases
+- [X] Understand relational databases
 - [ ] Understand SQL
 - [ ] Understand NoSQL
 - [X] Understand tables
@@ -577,6 +577,8 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [X] Daily temperatures
 * [X] Car fleet
 * [X] Largest Rectangle in Historgram
+* [X] Binary search (start of binary search)
+
 
 **Target:** 4–5 problems
 
