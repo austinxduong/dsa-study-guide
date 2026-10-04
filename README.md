@@ -123,8 +123,8 @@ System Design is a secondary track during the first few months and becomes more 
 ## Week 4 — Database Fundamentals
 
 - [X] Understand relational databases
-- [ ] Understand SQL
-- [ ] Understand NoSQL
+- [X] Understand SQL
+- [X] Understand NoSQL
 - [X] Understand tables
 - [X] Understand rows
 - [X] Understand columns
