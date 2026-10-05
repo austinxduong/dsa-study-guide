@@ -1,0 +1,28 @@
+function  searchMatrix(matrix, target) {
+        let cols = matrix[0].length
+        let rows = matrix.length
+        let left = 0
+        let right = rows * cols - 1
+
+        while (left <= right) {
+            let totalMatrixLength = left + right
+            let mid = Math.floor(totalMatrixLength / 2)
+            let row = Math.floor(mid / cols)
+            let col = mid % cols
+
+            if (matrix[row][col] < target) {
+                left = mid + 1
+            } else if (matrix[row][col] > target){
+                right = mid - 1
+            } else if (matrix[row][col] === target) {
+                return true
+            }
+        }
+    return false
+    }
+
+
+// O(log(m * n)) - time because we are finding the mid of the matrix, and discarding half of the left or right side of the array including its mid, until we find our target. 
+// where m represent the amount of rows in our matrix, and n represents the amount of columns in each row. so in our case its m = 3, n = 4.
+
+// O(1) - space because because we have 8 variables which don't change in space size, but just updates in constant time as the binary search cuts the array, finding its mid until we reach our target.

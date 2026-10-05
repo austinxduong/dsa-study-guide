@@ -578,6 +578,7 @@ Focus: Build the fundamental tools that everything else will depend on.
 * [X] Car fleet
 * [X] Largest Rectangle in Historgram
 * [X] Binary search (start of binary search)
+* [X] Search a 2D matrix
 
 
 **Target:** 4–5 problems
