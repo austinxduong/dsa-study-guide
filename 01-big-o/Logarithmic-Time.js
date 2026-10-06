@@ -32,6 +32,13 @@ That's
 O(log n)
 */
 
+/*
+How it works:
+for odd ararys - take the middle target and isolate that. splits the array in half, takes the half closer to the target, and throws the other half away - incuding the mid.
+for even array - take the middle target (right at the end of the smaller half). split, and the right side will always be one more bigger.
+
+*/
+
 function binarySearch(numbers, target) {
     let left = 0; // Space Complexity is O(1) because the size of variable don't increase proportionate to the size of numbers array.
     let right = numbers.length - 1;
