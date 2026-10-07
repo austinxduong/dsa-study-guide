@@ -139,9 +139,9 @@ System Design is a secondary track during the first few months and becomes more 
 
 ## Week 5 — API Design
 
-- [ ] Design REST resources
-- [ ] Design endpoints
-- [ ] Understand CRUD
+- [X] Design REST resources
+- [X] Design endpoints
+- [X] Understand CRUD
 - [ ] Design pagination
 - [ ] Design filtering
 - [ ] Design sorting
@@ -593,15 +593,15 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 You should be comfortable with:
 
-* [ ] Arrays
-* [ ] Hash maps
+* [X] Arrays
+* [X] Hash maps
 * [ ] Hash sets
-* [ ] Two pointers
-* [ ] Sliding window
+* [X] Two pointers
+* [X] Sliding window
 * [ ] Linked lists
-* [ ] Stacks
+* [X] Stacks
 * [ ] Queues
-* [ ] Basic Big O analysis
+* [X] Basic Big O analysis
 
 ---
 
@@ -617,15 +617,15 @@ You should be comfortable with:
 
 **Learn**
 
-* [ ] Binary search
+* [X] Binary search
 * [ ] Left/right boundaries
 * [ ] Search space reduction
 * [ ] O(log n)
-* [ ] Binary search on sorted arrays
+* [X] Binary search on sorted arrays
 
 **Example Problems**
 
-* [ ] Binary Search
+* [X] Koko eating bananas
 * [ ] Search a 2D Matrix
 * [ ] Find Minimum in Rotated Sorted Array
 * [ ] Search in Rotated Sorted Array

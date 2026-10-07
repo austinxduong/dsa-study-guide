@@ -1,0 +1,30 @@
+function findMin(nums) {
+        let left = 0
+        let right = nums.length - 1
+
+        while (left < right) {
+            let mid = Math.floor((left + right) / 2)
+
+            if (nums[mid] < nums[nums.length - 1]) {
+                right = mid
+            } else if (nums[mid] > nums[nums.length - 1]) {
+                left = mid + 1
+            }
+        }
+        return nums[left]
+    }
+
+// O(log n) - time because time is O(log n) because in our loop, were finding the mid between left and right indexes. if the value at mid is smaller than the last value of the array,
+//  we keep the mid and discard everything to the right of the mid and set the right pointer at the index of mid, where right = mid. if the value at mid is bigger than the value of the 
+// last value of the last item in the array. we discard the mid including everything to left of mid, and set the left as 1 element after mid, where left = mid + 1. 
+// we repeat this process until the left and right pointers meet and are equal to each other, and return the value at the index of the original input array. 
+// As we find our new mid in the loop, as we continually cut the array in half in place but not mutating the array (in this case by cutting, the numbers "cut" 
+// are actually ignored in the original array - where no cutting and removing of the actual elements happen causing the array to shrink - so were essentially 
+// shortening the "search range" in the original array and the left and right pointers move), where n represents the size of our original input array, 
+// we repeatedly cut the array in half with log, until we reach 1 single element in the array.
+
+// O(1) - space because space is O(1) because we are keeping track of 3 variables, where the sizes don't change in space size - they are constant space. 
+// They just update while the loop finds our new mid and left and right pointers update in constant space, and array shrinks, 
+// as the variables update while the array is repeatedly being cut in half (again nothing is actually being remove by a cut, and the original array never shrink by these cuts/halfing).
+// what actually happening is our search window shrinks and the numbers "halfved/cut" is just being ignored by the shrinking search window from left and right pointers
+
