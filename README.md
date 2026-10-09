@@ -142,8 +142,8 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Design REST resources
 - [X] Design endpoints
 - [X] Understand CRUD
-- [ ] Design pagination
-- [ ] Design filtering
+- [X] Design pagination
+- [X] Design filtering
 - [ ] Design sorting
 - [ ] Validate input
 - [ ] Design error responses
@@ -618,17 +618,17 @@ You should be comfortable with:
 **Learn**
 
 * [X] Binary search
-* [ ] Left/right boundaries
+* [X] Left/right boundaries
 * [ ] Search space reduction
-* [ ] O(log n)
+* [X] O(log n)
 * [X] Binary search on sorted arrays
 
 **Example Problems**
 
 * [X] Koko eating bananas
-* [ ] Search a 2D Matrix
-* [ ] Find Minimum in Rotated Sorted Array
-* [ ] Search in Rotated Sorted Array
+* [X] Find minimum in rotated sorted array
+* [X] Search in Rotated Sorted Array
+* [X] Time based key value store
 
 **Target:** 4 problems
 
