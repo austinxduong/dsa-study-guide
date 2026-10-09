@@ -144,7 +144,7 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Understand CRUD
 - [X] Design pagination
 - [X] Design filtering
-- [ ] Design sorting
+- [X] Design sorting
 - [ ] Validate input
 - [ ] Design error responses
 - [ ] Understand API versioning
