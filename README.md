@@ -145,8 +145,8 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Design pagination
 - [X] Design filtering
 - [X] Design sorting
-- [ ] Validate input
-- [ ] Design error responses
+- [X] Validate input
+- [X] Design error responses
 - [ ] Understand API versioning
 
 ---
@@ -629,6 +629,7 @@ You should be comfortable with:
 * [X] Find minimum in rotated sorted array
 * [X] Search in Rotated Sorted Array
 * [X] Time based key value store
+* [X] Median of two sorted arrays
 
 **Target:** 4 problems
 
