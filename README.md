@@ -147,7 +147,7 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Design sorting
 - [X] Validate input
 - [X] Design error responses
-- [ ] Understand API versioning
+- [Xi don] Understand API versioning
 
 ---
 
