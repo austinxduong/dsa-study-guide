@@ -630,6 +630,8 @@ You should be comfortable with:
 * [X] Search in Rotated Sorted Array
 * [X] Time based key value store
 * [X] Median of two sorted arrays
+* [X] Reverse Linked List
+
 
 **Target:** 4 problems
 
