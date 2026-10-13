@@ -132,6 +132,8 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Understand foreign keys
 - [X] Understand relationships
 - [X] Design a basic database schema
+- [X] Design one-to-many relationships
+- [X] Design many-to-many relationships
 
 ---
 
@@ -153,11 +155,9 @@ System Design is a secondary track during the first few months and becomes more 
 
 ## Week 6 — Database Design
 
-- [ ] Understand normalization
+- [X] Understand normalization
 - [ ] Understand denormalization
 - [ ] Design one-to-one relationships
-- [ ] Design one-to-many relationships
-- [ ] Design many-to-many relationships
 - [ ] Understand database indexes
 - [ ] Understand query performance
 - [ ] Identify common database bottlenecks
