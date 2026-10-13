@@ -657,7 +657,7 @@ You should be comfortable with:
 **Example Problems / Exercises**
 
 * [X] Merge Two Sorted Linked Lists
-* [ ] Fibonacci
+* [X] Linked List Cycle Detection
 * [ ] Merge Sort
 * [ ] Quick Sort
 * [ ] Sort an Array
