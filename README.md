@@ -147,7 +147,7 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Design sorting
 - [X] Validate input
 - [X] Design error responses
-- [Xi don] Understand API versioning
+- [X] Understand API versioning
 
 ---
 
@@ -642,6 +642,7 @@ You should be comfortable with:
 ### Week 6 — October 12–18
 
 ### Recursion + Sorting
+### Linkedlist (is more accurate in neetcode)
 
 **Learn**
 
@@ -655,7 +656,7 @@ You should be comfortable with:
 
 **Example Problems / Exercises**
 
-* [ ] Recursive Factorial
+* [X] Merge Two Sorted Linked Lists
 * [ ] Fibonacci
 * [ ] Merge Sort
 * [ ] Quick Sort
