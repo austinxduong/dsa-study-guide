@@ -156,7 +156,7 @@ System Design is a secondary track during the first few months and becomes more 
 ## Week 6 — Database Design
 
 - [X] Understand normalization
-- [ ] Understand denormalization
+- [X] Understand denormalization
 - [ ] Design one-to-one relationships
 - [ ] Understand database indexes
 - [ ] Understand query performance
