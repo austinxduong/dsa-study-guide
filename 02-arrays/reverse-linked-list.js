@@ -4,7 +4,7 @@ function reverseList(head) {
     let prev = null // points to the last next of last node, IN reversed list
 
     while (current !== null) { // points to the current node in original list, NOT reversed
-        let saved = current.next // current.next points to the next node in original list, NOT reversed. store as variable saved.
+        let saved = current.next // current.next points to the next node in original list node 2, NOT reversed. store as variable saved.
         current.next = prev // current.next previously at node 2 (node after head 1). prev points to our reversed list = null.
         prev = current // points to the reversed list. current = 1, prev now = 1 also
         current = saved // saved points node 2 from original list. and current becomes node 2, from original list.

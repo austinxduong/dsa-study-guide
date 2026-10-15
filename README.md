@@ -563,12 +563,12 @@ Focus: Build the fundamental tools that everything else will depend on.
 
 **Learn**
 
-* [ ] Singly linked lists
+<!-- * [ ] Singly linked lists
 * [ ] Node traversal
 * [ ] Reversing linked lists
-* [ ] Fast/slow pointers
+* [ ] Fast/slow pointers -->
 * [X] Stack operations
-* [ ] Queue operations
+<!-- * [ ] Queue operations -->
 
 **Example Problems**
 
@@ -595,12 +595,11 @@ You should be comfortable with:
 
 * [X] Arrays
 * [X] Hash maps
-* [ ] Hash sets
+<!-- * [ ] Hash sets -->
 * [X] Two pointers
 * [X] Sliding window
-* [ ] Linked lists
 * [X] Stacks
-* [ ] Queues
+<!-- * [ ] Queues -->
 * [X] Basic Big O analysis
 
 ---
@@ -646,19 +645,21 @@ You should be comfortable with:
 
 **Learn**
 
-* [ ] Recursion
+
+* [X] Linked-List
+<!-- * [ ] Recursion
 * [ ] Base cases
 * [ ] Recursive calls
 * [ ] Call stacks
 * [ ] Merge sort
 * [ ] Quick sort
-* [ ] O(n log n)
+* [ ] O(n log n) -->
 
 **Example Problems / Exercises**
 
 * [X] Merge Two Sorted Linked Lists
 * [X] Linked List Cycle Detection
-* [ ] Merge Sort
+* [X] Reorder Linked-List
 * [ ] Quick Sort
 * [ ] Sort an Array
 
