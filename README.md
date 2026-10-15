@@ -158,7 +158,7 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Understand normalization
 - [X] Understand denormalization
 - [X] Design one-to-one relationships
-- [ ] Understand database indexes
+- [X] Understand database indexes
 - [ ] Understand query performance
 - [ ] Identify common database bottlenecks
 
