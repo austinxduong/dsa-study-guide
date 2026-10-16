@@ -660,7 +660,7 @@ You should be comfortable with:
 * [X] Merge Two Sorted Linked Lists
 * [X] Linked List Cycle Detection
 * [X] Reorder Linked-List
-* [ ] Quick Sort
+* [X] Remove Nth Node From End of List
 * [ ] Sort an Array
 
 **Target:** 3–4 problems/exercises
