@@ -661,7 +661,7 @@ You should be comfortable with:
 * [X] Linked List Cycle Detection
 * [X] Reorder Linked-List
 * [X] Remove Nth Node From End of List
-* [ ] Sort an Array
+* [X] Copy List With Random Pointer
 
 **Target:** 3–4 problems/exercises
 
