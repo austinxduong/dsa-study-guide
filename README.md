@@ -672,7 +672,28 @@ You should be comfortable with:
 
 ### Week 7 — October 19–25
 
-### Binary Trees
+### Continuation of Linked List
+
+**Learn**
+
+* [ ] Tree terminology
+* [ ] Binary trees
+* [ ] DFS
+* [ ] BFS
+* [ ] Preorder traversal
+* [ ] Inorder traversal
+* [ ] Postorder traversal
+* [ ] Level-order traversal
+
+**Example Problems**
+
+* [X] Find the Duplicate Number
+* [ ] Maximum Depth of Binary Tree
+* [ ] Same Tree
+* [ ] Subtree of Another Tree
+* [ ] Binary Tree Level Order Traversal
+
+<!-- ### Binary Trees
 
 **Learn**
 
@@ -691,7 +712,7 @@ You should be comfortable with:
 * [ ] Maximum Depth of Binary Tree
 * [ ] Same Tree
 * [ ] Subtree of Another Tree
-* [ ] Binary Tree Level Order Traversal
+* [ ] Binary Tree Level Order Traversal -->
 
 **Target:** 4–5 problems
 
