@@ -160,7 +160,7 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Design one-to-one relationships
 - [X] Understand database indexes
 - [X] Understand query performance
-- [ ] Identify common database bottlenecks
+- [X] Identify common database bottlenecks
 
 ---
 
