@@ -688,7 +688,7 @@ You should be comfortable with:
 **Example Problems**
 
 * [X] Find the Duplicate Number
-* [ ] Maximum Depth of Binary Tree
+* [X] LRU Cache
 * [ ] Same Tree
 * [ ] Subtree of Another Tree
 * [ ] Binary Tree Level Order Traversal
