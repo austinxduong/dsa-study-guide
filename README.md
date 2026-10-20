@@ -166,10 +166,10 @@ System Design is a secondary track during the first few months and becomes more 
 
 ## Week 7 — Caching
 
-- [ ] Understand why caching is useful
-- [ ] Understand cache-aside
-- [ ] Understand cache invalidation
-- [ ] Understand TTL
+- [X] Understand why caching is useful
+- [X] Understand cache-aside
+- [X] Understand cache invalidation
+- [X] Understand TTL
 - [ ] Identify what should be cached
 - [ ] Understand Redis basics
 - [ ] Understand cache/database interactions
