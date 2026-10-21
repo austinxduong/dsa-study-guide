@@ -689,7 +689,7 @@ You should be comfortable with:
 
 * [X] Find the Duplicate Number
 * [X] LRU Cache
-* [ ] Same Tree
+* [X] Merege K Sorted Linked Lists
 * [ ] Subtree of Another Tree
 * [ ] Binary Tree Level Order Traversal
 
