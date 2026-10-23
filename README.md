@@ -690,7 +690,7 @@ You should be comfortable with:
 * [X] Find the Duplicate Number
 * [X] LRU Cache
 * [X] Merege K Sorted Linked Lists
-* [ ] Subtree of Another Tree
+* [X] Reverse Nodes in K-Group
 * [ ] Binary Tree Level Order Traversal
 
 <!-- ### Binary Trees
