@@ -44,3 +44,14 @@
         endNode = groupTail // endNode = node 1 of group 1 after reversal.
         }
     }
+
+    // O(n) - time because in our first while loop it runs n/k times, where we iterate through our list in chunks of k, with one extra final pass that hits null and returns . 
+    // then before our loops starts, we have 2 variable declarations which are setup costs of O(1), that execute once per pass. in our second while loop, this is runs O(K) 
+    // because if keeps iterating through every valid group of k, up to k, where steps and walker update in constant time O(1), and an additional checker once it hits null 
+    // and exists the while loop that returns reversed nodes, and left over nodes that weren't grouped at k. then before our third while loop, we have setup costs of 3 
+    // variable declarations which are O(1), and a variable reassignment which is also O(1). in our third while loop, this runs O(k), which reverses every group of k, up 
+    // to k, found in our list of nodes. we have 1 variable declaration which is O(1), and 4 variable reassignments which is also O(1). after all reversals and while loop 
+    // finishes, we have 1 variable declaration and 2 variable reassignments which are O(1). so total time complexity is n/k x 2k = 2n (the two k cancel each other out) = which is finally O(n).
+
+    // O(1) - space because we have 9 variable declaration which only take O(1) constant space, where only 1 of the 9 allocates 1 extra node space as the placeholder. 
+    // other than that, the groups of k, amounts of chunks of k, and the size of our list of nodes does not scale with space with those inputs.
