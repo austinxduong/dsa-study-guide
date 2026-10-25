@@ -171,7 +171,7 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Understand cache invalidation
 - [X] Understand TTL
 - [X] Identify what should be cached
-- [ ] Understand Redis basics
+- [X] Understand Redis basics
 - [ ] Understand cache/database interactions
 
 ---
