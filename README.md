@@ -691,7 +691,7 @@ You should be comfortable with:
 * [X] LRU Cache
 * [X] Merege K Sorted Linked Lists
 * [X] Reverse Nodes in K-Group
-* [ ] Binary Tree Level Order Traversal
+<!-- * [ ] Binary Tree Level Order Traversal -->
 
 <!-- ### Binary Trees
 
@@ -722,11 +722,12 @@ You should be comfortable with:
 
 ### Week 8 — October 26–November 1
 
-### BST + Heaps
+<!-- ### BST + Heaps -->
+### Binary Trees
 
 **Learn**
 
-* [ ] Binary Search Trees
+* [X] Binary Search Trees
 * [ ] BST properties
 * [ ] Tree search
 * [ ] Heap properties
@@ -736,7 +737,7 @@ You should be comfortable with:
 
 **Example Problems**
 
-* [ ] Search in a Binary Search Tree
+* [X] Invert Binary Tree
 * [ ] Validate Binary Search Tree
 * [ ] Kth Smallest Element in a BST
 * [ ] Kth Largest Element in a Stream
