@@ -172,15 +172,15 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Understand TTL
 - [X] Identify what should be cached
 - [X] Understand Redis basics
-- [ ] Understand cache/database interactions
+- [X] Understand cache/database interactions
 
 ---
 
 ## Week 8 — Scaling Basics
 
-- [ ] Understand vertical scaling
-- [ ] Understand horizontal scaling
-- [ ] Understand load balancing
+- [X] Understand vertical scaling
+- [X] Understand horizontal scaling
+- [X] Understand load balancing
 - [ ] Understand stateless servers
 - [ ] Understand database bottlenecks
 - [ ] Understand read replicas
@@ -738,7 +738,7 @@ You should be comfortable with:
 **Example Problems**
 
 * [X] Invert Binary Tree
-* [ ] Validate Binary Search Tree
+* [X] Maximum Depth of Binary Tree
 * [ ] Kth Smallest Element in a BST
 * [ ] Kth Largest Element in a Stream
 * [ ] Last Stone Weight
