@@ -739,7 +739,7 @@ You should be comfortable with:
 
 * [X] Invert Binary Tree
 * [X] Maximum Depth of Binary Tree
-* [ ] Kth Smallest Element in a BST
+* [X] Diameter of Binary Tree
 * [ ] Kth Largest Element in a Stream
 * [ ] Last Stone Weight
 
