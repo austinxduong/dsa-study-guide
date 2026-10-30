@@ -740,7 +740,7 @@ You should be comfortable with:
 * [X] Invert Binary Tree
 * [X] Maximum Depth of Binary Tree
 * [X] Diameter of Binary Tree
-* [ ] Kth Largest Element in a Stream
+* [X] Balanced Binary Tree
 * [ ] Last Stone Weight
 
 **Target:** 4–5 problems
