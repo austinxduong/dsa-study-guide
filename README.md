@@ -181,11 +181,11 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Understand vertical scaling
 - [X] Understand horizontal scaling
 - [X] Understand load balancing
-- [ ] Understand stateless servers
-- [ ] Understand database bottlenecks
-- [ ] Understand read replicas
-- [ ] Practice basic capacity thinking
-- [ ] Explain how an application could scale from 1 server to multiple servers
+- [X] Understand stateless servers
+- [X] Understand database bottlenecks
+- [X] Understand read replicas
+- [X] Practice basic capacity thinking
+- [X] Explain how an application could scale from 1 server to multiple servers
 
 ---
 
@@ -741,7 +741,7 @@ You should be comfortable with:
 * [X] Maximum Depth of Binary Tree
 * [X] Diameter of Binary Tree
 * [X] Balanced Binary Tree
-* [ ] Last Stone Weight
+* [ ] Same Tree
 
 **Target:** 4–5 problems
 
