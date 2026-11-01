@@ -741,7 +741,7 @@ You should be comfortable with:
 * [X] Maximum Depth of Binary Tree
 * [X] Diameter of Binary Tree
 * [X] Balanced Binary Tree
-* [ ] Same Tree
+* [ ] Same Binary Tree
 
 **Target:** 4–5 problems
 
