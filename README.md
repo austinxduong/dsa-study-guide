@@ -779,17 +779,20 @@ You should be comfortable implementing and explaining:
 
 **Learn**
 
-* [ ] Graph terminology
+<!-- * [ ] Graph terminology
 * [ ] Nodes/vertices
 * [ ] Edges
 * [ ] Directed vs. undirected graphs
 * [ ] Adjacency lists
 * [ ] Adjacency matrices
-* [ ] Graph traversal
+* [ ] Graph traversal -->
+
+* [ ] Binary Trees (Continued)
+
 
 **Example Problems**
 
-* [ ] Number of Islands
+* [ ] Subset of another tree
 * [ ] Clone Graph
 * [ ] Find if Path Exists in Graph
 
