@@ -792,7 +792,7 @@ You should be comfortable implementing and explaining:
 
 **Example Problems**
 
-* [ ] Subset of another tree
+* [X] Subset of another tree
 * [ ] Clone Graph
 * [ ] Find if Path Exists in Graph
 
