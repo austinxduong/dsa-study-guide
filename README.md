@@ -193,13 +193,13 @@ System Design is a secondary track during the first few months and becomes more 
 
 ## Week 9 — Queues & Background Jobs
 
-- [ ] Understand asynchronous processing
-- [ ] Understand message queues
-- [ ] Understand producers
-- [ ] Understand consumers
-- [ ] Understand background workers
-- [ ] Understand retries
-- [ ] Understand dead-letter queues
+- [X] Understand asynchronous processing
+- [X] Understand message queues
+- [X] Understand producers
+- [X] Understand consumers
+- [X] Understand background workers
+- [X] Understand retries
+- [X] Understand dead-letter queues
 - [ ] Identify tasks that should run asynchronously
 
 ---
@@ -793,7 +793,7 @@ You should be comfortable implementing and explaining:
 **Example Problems**
 
 * [X] Subset of another tree
-* [ ] Clone Graph
+* [ ] Lowest Common Ancestor in Binary Search Tree
 * [ ] Find if Path Exists in Graph
 
 **Target:** 3–4 problems
