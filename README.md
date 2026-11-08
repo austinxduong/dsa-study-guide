@@ -200,7 +200,7 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Understand background workers
 - [X] Understand retries
 - [X] Understand dead-letter queues
-- [ ] Identify tasks that should run asynchronously
+- [X] Identify tasks that should run asynchronously
 
 ---
 
@@ -741,7 +741,8 @@ You should be comfortable with:
 * [X] Maximum Depth of Binary Tree
 * [X] Diameter of Binary Tree
 * [X] Balanced Binary Tree
-* [X] Same Binary Tree
+* [] Lowest Common Ancestor in Binary Search Tree
+
 
 **Target:** 4–5 problems
 
