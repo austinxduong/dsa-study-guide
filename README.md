@@ -206,9 +206,9 @@ System Design is a secondary track during the first few months and becomes more 
 
 ## Week 10 — Reliability
 
-- [ ] Understand Single Points of Failure
-- [ ] Understand redundancy
-- [ ] Understand failover
+- [X] Understand Single Points of Failure
+- [X] Understand redundancy
+- [X] Understand failover
 - [ ] Understand timeouts
 - [ ] Understand retries
 - [ ] Understand idempotency
