@@ -210,7 +210,7 @@ System Design is a secondary track during the first few months and becomes more 
 - [X] Understand redundancy
 - [X] Understand failover
 - [X] Understand timeouts
-- [ ] Understand retries
+- [X] Understand retries
 - [ ] Understand idempotency
 - [ ] Understand graceful degradation
 - [ ] Identify failure scenarios
